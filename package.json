@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "brain-games": "node bin/brain-games.js"
+    "brain-games": "node bin/brain-games.js",
+    "lint": "npx eslint && npx eslint --fix" 
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,8 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^9.18.0"
+    "eslint": "^9.18.0",
+    "eslint-plugin-import": "^2.31.0"
   }
 }
+
